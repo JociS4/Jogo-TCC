@@ -12,10 +12,12 @@ else {
 	obj_player.sprite_index = spr_player_parado1;
 	obj_player.velh = 0;
 	obj_player.estado = "parado";
+	
 }
 
 //quando o alpha passar de 1, acontece a transicao de room
 if(alpha >= 1){
+	audio_play_sound(snd_transicao,3,0);
 	room_goto(destino);
 	
 	//posicao do player

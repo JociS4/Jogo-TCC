@@ -2,6 +2,7 @@ perguntas = [
 	["Apartir de agora você ira participar de um jogo", 0], // Diálogo normal
 	["Não precisa ter medo, E apenas um quizz simples", 0],
 	["As opções serão mostradas na tela use as SETAS para navegar e o ENTER para fazer a escolha", 0],
+	["Sua pontuação pode ser vista no canto superior direito da tela", 0],
 	["Preparado?, Vamos Lá", 0],
     ["Qual das seguintes estruturas de dados é mais adequada para implementar uma fila? ", 1, ["Lista ligada", "Pilha", "Árvore binária","Tabela hash"]],
     ["Qual é a complexidade de tempo do algoritmo de busca binária em uma lista ordenada?", 1, ["O(log n)", "O(n)", "O(n log n)", "O(n^2)"]],

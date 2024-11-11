@@ -105,10 +105,12 @@ if (mostrar_opcoes) {
     if (keyboard_check_pressed(vk_enter)) {
         // Processar a resposta
         if (opcoes[resposta_selecionada] == resposta_correta) { // Verifica se a resposta selecionada é a correta
-            show_message("Resposta correta!");
+            audio_play_sound(snd_resposta_correta,3,0);
             global.pontos += 10;
+			global.acertos += 1;
         } else {
-            show_message("Resposta errada!");
+            audio_play_sound(snd_resposta_errada,3,0);
+			global.erros += 1;
         }
         
         // Ir para a próxima pergunta ou finalizar

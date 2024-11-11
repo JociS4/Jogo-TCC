@@ -1,5 +1,7 @@
 // STEP
 // Checar se o jogador está próximo e pressionou 'E' para iniciar o diálogo
+
+
 if (distance_to_object(obj_player) <= 10) {
 	
 	if (obj_player.x > x) {
@@ -18,9 +20,17 @@ if (distance_to_object(obj_player) <= 10) {
 // Verificar se o diálogo foi finalizado
 if (!global.dialogo_ativo && meu_dialogo != noone) {
     // Se o NPC deve ser destruído após o diálogo
+	
     if (destruir) {
+		if(global.pontos >= 40 && room == Room1 && instance_exists(obj_sapo)){
+			obj_player.vida_atual += 2;
+		}
+		if(global.pontos >= 70 && room == Room3 && instance_exists(obj_sapo)){
+			obj_player.vida_atual += 3;
+		}
         instance_destroy();
     }
+	
     // Limpar a referência ao objeto de diálogo para evitar checagens adicionais
     meu_dialogo = noone;
 }

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_resposta_correta",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.466667,
+  "name":"snd_resposta_correta",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_resposta_correta.wav",
+  "type":0,
+  "volume":1.0,
+}

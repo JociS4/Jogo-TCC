@@ -16,6 +16,8 @@ event_inherited();
 
 //iniciando a variavel global pontos
 global.pontos = 0;
+global.acertos = 0;
+global.erros = 0;
 
 vida_max = 5;
 vida_atual = vida_max;
