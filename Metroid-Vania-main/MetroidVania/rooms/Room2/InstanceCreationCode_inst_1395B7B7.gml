@@ -1,3 +1,3 @@
-destino = Room3;
-destino_x = 870;
-destino_y = 80;
+destino = Room2_5;
+destino_x = 1775;
+destino_y = 112;
