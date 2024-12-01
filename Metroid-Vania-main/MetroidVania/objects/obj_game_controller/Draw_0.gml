@@ -55,8 +55,9 @@ if (game_over){
 		draw_text(meio_w, meio_h, "G a m e - O v e r");
 		draw_set_font(-1);
 		
-		
+		draw_set_font(fnt_pontuacao);
 		draw_text(meio_w, meio_h + 40, "Press ENTER to restart");
+		draw_set_font(-1);
 	
 		draw_set_valign(-1);
 		draw_set_halign(-1);

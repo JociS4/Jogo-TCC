@@ -479,6 +479,7 @@ switch(estado){
 		
 		velh = 0;
 		mid_velh = 0;
+		velv = 0;
 		image_alpha = 1;
 		//checando se o controlador existe
 		if(instance_exists(obj_game_controller)){

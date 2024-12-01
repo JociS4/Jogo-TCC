@@ -19,7 +19,8 @@ else if(room == Room3){
 	if(global.pontos >= 70){
 		perguntas = [
 			["Sua pontuação é de " + string(global.pontos) + ", Parabens", 0],
-			["Muito boa a pontuação, você ganhou o bonus de vida",0]
+			["Muito boa a pontuação, você ganhou o bonus de vida",0],
+			["Você venceu todos os desafios desse castelo, agora você pode ir embora e desfrutar desse conhecimento adquirido", 0]
 		];
 
 	}
@@ -55,13 +56,15 @@ if (!global.dialogo_ativo && meu_dialogo != noone) {
 	
     if (destruir) {
 		if(global.pontos < 70 && room == Room3 && instance_exists(obj_sapo2)){
-			var _posx = 1500; // Posição inicial x
-		    var _posy = 255;  // Posição inicial y
-		    var _incremento = 10; // Diferença de posição entre os objetos
-		    for (var i = 0; i < 20; i++) {
-		        instance_create_layer(_posx + (i * _incremento), _posy + (i * _incremento / 2), "instances", obj_boss_morte);
-		    }
-			//instance_create_layer(1500, 255,"instances", obj_boss_morte)
+			
+			room_goto(Room4)
+			obj_player.x = 320;
+			obj_player.y = 200;
+			
+			//var tran = instance_create_layer(0, 0, layer, obj_transicao);
+			//tran.destino = Room4;
+			//tran.destino_x = 320;
+			//tran.destino_y = 200;
 		}
         instance_destroy();
     }

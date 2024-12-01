@@ -43,7 +43,7 @@ switch(estado){
 			var _dist = point_distance(x, y, obj_player.x, obj_player.y);
 			var _dir = point_direction(x, y, obj_player.x, obj_player.y);
 			
-			if(_dist > 40){
+			if(_dist > 50){
 			
 				//definindo velocidade
 				velh = lengthdir_x(max_velh, _dir);
@@ -111,6 +111,19 @@ switch(estado){
 		
 		//adicionando um screenshake
 		screenshake(6);
+		
+		if(room == Room3){
+			if(instance_exists(obj_sapo2)){
+				break;	
+			}
+			else{
+				var _sapo = instance_create_layer(1776, 278, "sensores", obj_sapo2);
+				_sapo.destruir = true;
+				_sapo.image_xscale = -1;
+			}
+		}
 		break;
+		
+		
 	}
 }

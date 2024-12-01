@@ -14,9 +14,11 @@ else{
 var _velh = sign(velh);
 var _velv = sign(velv);
 
+
+
 //Horizontal
 repeat(abs(velh)){
-	if(place_meeting(x + _velh, y, obj_block)){
+	if(place_meeting(x + _velh, y, obj_block) || place_meeting(x + _velh, y, obj_sapo)){
 		velh = 0;
 		break;
 	}
@@ -25,10 +27,11 @@ repeat(abs(velh)){
 
 //Vertical
 repeat(abs(velv)){
-	if(place_meeting (x, y + _velv, obj_block)){
+	if(place_meeting (x, y + _velv, obj_block) || place_meeting(x, y + _velv, obj_sapo)){
 		velv = 0;
 		break;
 	}
 	y += _velv;
 }
+
 
