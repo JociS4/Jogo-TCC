@@ -107,6 +107,7 @@
     {"id":{"name":"snd_ataque3_player","path":"sounds/snd_ataque3_player/snd_ataque3_player.yy",},},
     {"id":{"name":"snd_background","path":"sounds/snd_background/snd_background.yy",},},
     {"id":{"name":"snd_bip_menu","path":"sounds/snd_bip_menu/snd_bip_menu.yy",},},
+    {"id":{"name":"snd_creditos","path":"sounds/snd_creditos/snd_creditos.yy",},},
     {"id":{"name":"snd_dano_player","path":"sounds/snd_dano_player/snd_dano_player.yy",},},
     {"id":{"name":"snd_gameover","path":"sounds/snd_gameover/snd_gameover.yy",},},
     {"id":{"name":"snd_menu","path":"sounds/snd_menu/snd_menu.yy",},},

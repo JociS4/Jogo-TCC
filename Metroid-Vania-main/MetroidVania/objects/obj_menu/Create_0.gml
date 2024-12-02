@@ -2,6 +2,7 @@
 // Você pode escrever seu código neste editor
 
 //criando menu
+audio_stop_all();
 audio_play_sound(snd_menu2, 1, true);
 //seleção menu
 marg_val = 18;

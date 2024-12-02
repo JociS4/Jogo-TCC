@@ -2,13 +2,13 @@
 // Checar se o jogador está próximo e pressionou 'E' para iniciar o diálogo
 
 if (room == Room1){
-	if(global.pontos >= 40){
+	if(global.pontos >= 25){
 		perguntas = [
 			["Sua pontuação é de " + string(global.pontos), 0],
 			["Muito boa a pontuação, você ganhou o bonus de vida",0]
 		];
 	}
-	else if (global.pontos < 40){
+	else if (global.pontos < 25){
 		perguntas = [
 			["Sua pontuação é de " + string(global.pontos), 0],
 			["Vc não se saiu muito bem",0]

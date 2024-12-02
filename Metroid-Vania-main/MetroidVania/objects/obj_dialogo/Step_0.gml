@@ -106,7 +106,7 @@ if (mostrar_opcoes) {
         // Processar a resposta
         if (opcoes[resposta_selecionada] == resposta_correta) { // Verifica se a resposta selecionada é a correta
             audio_play_sound(snd_resposta_correta,3,0);
-            global.pontos += 10;
+            global.pontos += 5;
 			global.acertos += 1;
         } else {
             audio_play_sound(snd_resposta_errada,3,0);

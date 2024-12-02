@@ -16,6 +16,25 @@
 	
 ///QUESTOES
 //FASE 01
+//Baseado no Livro
+perguntas = [
+	["Apartir de agora você ira participar de um jogo", 0], // Diálogo normal
+	["Não precisa ter medo, E apenas um quizz simples", 0],
+	["As opções serão mostradas na tela use as SETAS para navegar e o ENTER para fazer a escolha", 0],
+	["Sua pontuação pode ser vista no canto superior direito da tela", 0],
+	["Preparado?, Vamos Lá", 0],
+	["Qual das seguintes definições melhor descreve um algoritmo?",1,["Uma sequência de instruções para resolver um problema computacional específico.","Um programa escrito em linguagem de máquina.","Um conjunto de dados organizados para facilitar o acesso.","Uma estrutura de dados que armazena elementos em uma ordem específica."]],
+	["Qual é a principal vantagem da abordagem de 'divisão e conquista' para o projeto de algoritmos?",1,["Ela permite a solução de problemas dividindo-os em subproblemas menores e mais simples.","Ela sempre produz o algoritmo mais eficiente.","Ela simplifica a análise do tempo de execução.","Ela reduz a complexidade do código."]],
+	["Qual das seguintes opções NÃO é um exemplo de aplicação de algoritmos?",1,["A fabricação de um chip de computador.","Criptografia de mensagens.","Busca de informações em um banco de dados.","Ordenação de uma lista de nomes."]],
+	["O que significa a notação Big O (O(n)) na análise de algoritmos?",1,["O algoritmo leva tempo proporcional a n para terminar, no pior caso.","O algoritmo leva tempo proporcional a log2(n) para terminar.","O algoritmo nunca leva mais do que n passos para terminar.","O algoritmo sempre leva exatamente n passos para terminar."]],
+	["Ordene as seguintes funções por sua taxa de crescimento assintótico, da menor para a maior: log n, n log n, n2, 2n, n.",1,["log n, n, n log n, n2, 2n","log n, n log n, n, n2, 2n","2n, n2, n log n, n, log n","n, log n, n log n, 2n, n2"]],
+	["Em um modelo de máquina RAM (Random Access Machine), o que significa que uma instrução leva 'tempo constante'?",1,["O tempo para executar a instrução não depende do tamanho da entrada.","A instrução leva sempre exatamente 1 nanosegundo para executar.","A instrução leva sempre o mesmo número de ciclos de clock para executar.","O tempo para executar a instrução é conhecido antecipadamente."]],
+	["O que é um invariante de laço?",1,["Uma afirmação que é verdadeira no início e no final de um loop.","Uma condição que deve ser verdadeira para um programa funcionar.","Uma variável que mantém um valor constante em um loop.","Uma condição que garante que o loop termine."]],
+	["Esse é o fim do quizz ", 0],
+	["Gostou da dinamica?. Espero que sim :) s2!.", 0]
+];
+
+//Modelo anterior
 perguntas = [
 	["Apartir de agora você ira participar de um jogo", 0], // Diálogo normal
 	["Não precisa ter medo, E apenas um quizz simples", 0],
@@ -32,8 +51,32 @@ perguntas = [
 ];
 
 //FASE 02
+perguntas = [
+	["Qual algoritmo de ordenação é tipicamente o mais eficiente para ordenar um pequeno número de elementos?",1,["Ordenação por inserção","Ordenação por intercalação","Ordenação por heap","Quicksort"]],
+	["O que é uma inversão em um arranjo?",1,["Um par de elementos que estão na ordem errada.","Um elemento que está fora da sua posição correta.","Um par de elementos que são idênticos.","Um elemento que é maior do que todos os outros elementos."]],
+	["O que significa ordenar um conjunto de elementos 'no lugar'?",1,["Ordenar os elementos mantendo-os na estrutura de dados original.","Ordenar os elementos em uma nova estrutura de dados.","Ordenar os elementos usando apenas comparações.","Ordenar os elementos em ordem decrescente."]],
+	["Como podemos determinar a mediana de n números em tempo linear esperado (O(n))?",1,["Usando um algoritmo de divisão e conquista baseado no algoritmo quicksort.","Usando busca binária.","Ordenando os n números.","Usando um algoritmo guloso."]],
+	["Qual algoritmo de ordenação abaixo tem tempo de execução médio O(n log n)?",1,["Quick sort","Merge Sort","Bubble Sort","Heap Sort"]],
+	["Explique a relação entre inversões e o tempo de execução do algoritmo de ordenação por inserção.",1,["O tempo de execução é proporcional ao número de inversões.","Não há relação entre inversões e o tempo de execução.","O tempo de execução é proporcional ao quadrado do número de inversões.","O tempo de execução é proporcional ao logaritmo do número de inversões."]],
+];
+
 
 //FASE 03
+//baseado no livro
+perguntas = [
+	["Antes de ir, vamos fazer mais uma brincadeira", 0],
+	["Uma ultima rodada de perguntas", 0],
+	
+	["Qual estrutura de dados segue o princípio LIFO (Last-In, First-Out)?",1,["Pilha","Lista ligada","Fila","Árvore"]],
+	["Uma sentinela em uma lista ligada é?",1,["Um nó com dados especiais.","Um nó com apenas um ponteiro.","Um nó que indica o fim da lista.","Um nó que indica o início da lista."]],
+	["Discuta as vantagens e desvantagens de usar sentinelas em listas ligadas.",1,["Sentinelas simplificam o código de tratamento de casos de fronteira, potencialmente melhorando a clareza e a eficiência.","Sentinelas tornam o código mais complexo.","Sentinelas são sempre benéficas para a eficiência.","Sentinelas aumentam o tempo de execução."]],
+	["Qual estrutura de dados segue o princípio FIFO (First-In, First-Out)?",1,["Fila","Pilha","Lista ligada","Árvore"]],
+	["Qual é a complexidade de tempo do pior caso para a busca de um elemento em uma lista ligada de n elementos?",1,["O(n)","O(n2)","O(log n)","O(1)"]],
+	["Em uma lista duplamente ligada, cada nó contém:",1,["Um ponteiro para o próximo nó, um ponteiro para o nó anterior e dados.","Um ponteiro para o nó anterior e dados.","Um ponteiro para o próximo nó e dados.","Dados apenas."]],
+	["O que é uma árvore enraizada?",1,["Uma árvore onde um nó é designado como raiz.","Uma árvore onde todos os nós têm o mesmo grau.","Uma árvore binária.","Uma árvore sem ciclos."]],
+];
+
+//modelo anterior
 perguntas = [
 	["Antes de ir, vamos fazer mais uma brincadeira", 0],
 	["Qual das seguintes alternativas descreve o conceito de 'complexidade espacial' de um algoritmo?", 1, ["A quantidade de memória que um algoritmo precisa para ser executado.","O número de passos que um algoritmo precisa para ser concluído.","A velocidade com que um algoritmo executa em diferentes processadores.","A quantidade de dados que um algoritmo processa simultaneamente."]],

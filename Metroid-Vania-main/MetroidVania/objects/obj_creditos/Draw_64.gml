@@ -1,5 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+
+
 // Cor de fundo da tela de créditos
 draw_clear(c_black);
 // Defina a fonte e cor do texto
@@ -17,6 +19,6 @@ for (var i = 0; i < array_length(creditos); i++) {
 text_y -= text_speed;
 
 // reiniciar ao fim dos créditos
-if (_y + line_spacing * array_length(creditos) < 0) {
+if (text_y + line_spacing * array_length(creditos) < 0) {
    game_restart()
 }

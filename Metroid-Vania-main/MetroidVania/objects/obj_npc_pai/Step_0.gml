@@ -22,7 +22,7 @@ if (!global.dialogo_ativo && meu_dialogo != noone) {
     // Se o NPC deve ser destruído após o diálogo
 	
     if (destruir) {
-		if(global.pontos >= 40 && room == Room1 && instance_exists(obj_sapo)){
+		if(global.pontos >= 25 && room == Room1 && instance_exists(obj_sapo)){
 			obj_player.vida_atual += 2;
 		}
 		if(global.pontos >= 70 && room == Room3 && instance_exists(obj_sapo)){

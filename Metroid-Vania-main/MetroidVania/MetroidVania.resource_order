@@ -74,6 +74,7 @@
     {"name":"snd_ataque3_player","order":7,"path":"sounds/snd_ataque3_player/snd_ataque3_player.yy",},
     {"name":"snd_background","order":10,"path":"sounds/snd_background/snd_background.yy",},
     {"name":"snd_bip_menu","order":1,"path":"sounds/snd_bip_menu/snd_bip_menu.yy",},
+    {"name":"snd_creditos","order":14,"path":"sounds/snd_creditos/snd_creditos.yy",},
     {"name":"snd_dano_player","order":4,"path":"sounds/snd_dano_player/snd_dano_player.yy",},
     {"name":"snd_gameover","order":8,"path":"sounds/snd_gameover/snd_gameover.yy",},
     {"name":"snd_menu2","order":9,"path":"sounds/snd_menu2/snd_menu2.yy",},
