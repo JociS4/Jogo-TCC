@@ -3,7 +3,7 @@
 var xx = 50;
 
 repeat(vida_atual){
-	draw_sprite_ext(spr_vida, image_index,xx, 55, 1, 1, image_angle, c_white, 1);
+	draw_sprite_ext(spr_vida, 0,xx, 55, 1, 1, image_angle, c_white, 1);
 	xx += 50;
 }
 draw_set_font(fnt_pontuacao);

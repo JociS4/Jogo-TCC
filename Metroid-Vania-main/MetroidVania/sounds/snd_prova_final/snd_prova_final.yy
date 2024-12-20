@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_creditos",
+  "%Name":"snd_prova_final",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":214.152,
-  "name":"snd_creditos",
+  "duration":60.024,
+  "name":"snd_prova_final",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_creditos.mp3",
+  "soundFile":"snd_prova_final.mp3",
   "type":0,
-  "volume":0.9,
+  "volume":1.0,
 }

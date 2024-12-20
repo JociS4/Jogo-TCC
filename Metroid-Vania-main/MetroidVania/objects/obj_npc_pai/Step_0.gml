@@ -23,10 +23,19 @@ if (!global.dialogo_ativo && meu_dialogo != noone) {
 	
     if (destruir) {
 		if(global.pontos >= 25 && room == Room1 && instance_exists(obj_sapo)){
-			obj_player.vida_atual += 2;
+			//obj_player.vida_atual += 2;
+			var _vida1 = instance_create_layer(427, 80, "sensores", obj_vida);
+			_vida1.image_xscale = 0.388;
+			_vida1.image_yscale = 0.406;
+			_vida1.vida = 2;
+			
+			
 		}
 		if(global.pontos >= 70 && room == Room3 && instance_exists(obj_sapo)){
-			obj_player.vida_atual += 3;
+			var _vida2 = instance_create_layer(1163, 180, "sensores", obj_vida);
+			_vida2.image_xscale = 0.388;
+			_vida2.image_yscale = 0.406;
+			_vida2.vida = 3;
 		}
         instance_destroy();
     }

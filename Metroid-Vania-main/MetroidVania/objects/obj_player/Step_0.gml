@@ -473,7 +473,7 @@ switch(estado){
 	{		 
 		if (!audio_playing_gameover) {
 			audio_stop_all();
-		    audio_play_sound(snd_gameover, 1, false); // O false garante que não é loop
+		    audio_play_sound(snd_gameover2, 1, false); // O false garante que não é loop
 		    audio_playing_gameover = true; // Marca como áudio já tocando
 		}
 		
@@ -497,9 +497,8 @@ switch(estado){
 		if(image_index >= image_number -1){
 			image_index = image_number -1;
 
-		}
-		
-		if (keyboard_check_released(vk_enter)){
+		}	
+		if (keyboard_check_released(vk_enter) || !audio_is_playing(snd_gameover2)){
 			game_restart();
 		}
 	}

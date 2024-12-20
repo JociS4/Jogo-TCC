@@ -45,7 +45,7 @@ switch(estado){
 			var _dist = point_distance(x, y, obj_player.x, obj_player.y);
 			var _dir = point_direction(x, y, obj_player.x, obj_player.y);
 			
-			if(_dist > 40){
+			if(_dist > 50){
 			
 				//definindo velocidade
 				velh = lengthdir_x(max_velh, _dir);

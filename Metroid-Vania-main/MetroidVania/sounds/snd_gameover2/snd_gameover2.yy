@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_creditos",
+  "%Name":"snd_gameover2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":214.152,
-  "name":"snd_creditos",
+  "duration":30.36,
+  "name":"snd_gameover2",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_creditos.mp3",
+  "soundFile":"snd_gameover2.mp3",
   "type":0,
   "volume":0.9,
 }

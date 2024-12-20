@@ -4,9 +4,9 @@ audio_stop_all();
 audio_play_sound(snd_creditos,1,true)
 // Texto dos créditos
 creditos = [
-	//"Pontuação: " + string(global.pontos),
-	//"Questões acertadas: " + string(global.acertos),
-	//"Questões erradas: " + string(global.erros),
+	"Pontuação: " + string(global.pontos),
+	"Questões acertadas: " + string(global.acertos),
+	"Questões erradas: " + string(global.erros),
 	"",
     "Desenvolvido por: Jociel",
     "Arte: Artista",
