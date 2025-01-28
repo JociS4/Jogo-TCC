@@ -60,6 +60,7 @@
   "name":"MetroidVania",
   "resources":[
     {"id":{"name":"ca_margem","path":"animcurves/ca_margem/ca_margem.yy",},},
+    {"id":{"name":"dnt_titulo","path":"fonts/dnt_titulo/dnt_titulo.yy",},},
     {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},},
     {"id":{"name":"fnt_gameover","path":"fonts/fnt_gameover/fnt_gameover.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"scr_ataca_player_melee","path":"scripts/scr_ataca_player_melee/scr_ataca_player_melee.yy",},},
     {"id":{"name":"scr_funcoes","path":"scripts/scr_funcoes/scr_funcoes.yy",},},
     {"id":{"name":"scr_ini","path":"scripts/scr_ini/scr_ini.yy",},},
+    {"id":{"name":"sq_menu","path":"sequences/sq_menu/sq_menu.yy",},},
     {"id":{"name":"snd_ataque1_player","path":"sounds/snd_ataque1_player/snd_ataque1_player.yy",},},
     {"id":{"name":"snd_ataque2_player","path":"sounds/snd_ataque2_player/snd_ataque2_player.yy",},},
     {"id":{"name":"snd_ataque3_player","path":"sounds/snd_ataque3_player/snd_ataque3_player.yy",},},
@@ -139,6 +141,7 @@
     {"id":{"name":"spr_boss_morte_provocacao","path":"sprites/spr_boss_morte_provocacao/spr_boss_morte_provocacao.yy",},},
     {"id":{"name":"spr_buraco","path":"sprites/spr_buraco/spr_buraco.yy",},},
     {"id":{"name":"spr_caixa","path":"sprites/spr_caixa/spr_caixa.yy",},},
+    {"id":{"name":"spr_cas_menu","path":"sprites/spr_cas_menu/spr_cas_menu.yy",},},
     {"id":{"name":"spr_cred","path":"sprites/spr_cred/spr_cred.yy",},},
     {"id":{"name":"spr_dano","path":"sprites/spr_dano/spr_dano.yy",},},
     {"id":{"name":"spr_e","path":"sprites/spr_e/spr_e.yy",},},

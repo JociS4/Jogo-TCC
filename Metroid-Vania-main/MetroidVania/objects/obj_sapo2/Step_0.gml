@@ -11,14 +11,14 @@ if (room == Room1){
 	else if (global.pontos < 25){
 		perguntas = [
 			["Sua pontuação é de " + string(global.pontos), 0],
-			["Vc não se saiu muito bem",0]
+			["Você não se saiu muito bem",0]
 		];
 	}
 }
 else if(room == Room3){
 	if(global.pontos >= 70){
 		perguntas = [
-			["Sua pontuação é de " + string(global.pontos) + ", Parabens", 0],
+			["Sua pontuação é de " + string(global.pontos) + ", Parabéns", 0],
 			["Você venceu todos os desafios desse castelo, agora você pode ir embora e desfrutar desse conhecimento adquirido", 0]
 		];
 
@@ -26,7 +26,7 @@ else if(room == Room3){
 	else if (global.pontos < 70){
 		perguntas = [
 			["Sua pontuação é de " + string(global.pontos), 0],
-			["Vc não foi muito bem, então está na hora de fazer a prova FINAL",0],
+			["Você não foi muito bem, então está na hora de fazer a prova FINAL",0],
 			["Se conseguir superar o desafio você poderá escapar desse castelo. É bem simples basta apenas sobreviver até o tempo acabar",0],
 			["prepare-se para o seu último desafio",0]
 		];

@@ -38,6 +38,7 @@
     {"name":"Movendo","order":1,"path":"folders/Sprites/Player/Movendo.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"dnt_titulo","order":4,"path":"fonts/dnt_titulo/dnt_titulo.yy",},
     {"name":"fnt_dialogo","order":2,"path":"fonts/fnt_dialogo/fnt_dialogo.yy",},
     {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
     {"name":"fnt_pontuacao","order":3,"path":"fonts/fnt_pontuacao/fnt_pontuacao.yy",},
@@ -103,6 +104,7 @@
     {"name":"spr_boss_morte_provocacao","order":5,"path":"sprites/spr_boss_morte_provocacao/spr_boss_morte_provocacao.yy",},
     {"name":"spr_buraco","order":10,"path":"sprites/spr_buraco/spr_buraco.yy",},
     {"name":"spr_caixa","order":8,"path":"sprites/spr_caixa/spr_caixa.yy",},
+    {"name":"spr_cas_menu","order":12,"path":"sprites/spr_cas_menu/spr_cas_menu.yy",},
     {"name":"spr_cred","order":11,"path":"sprites/spr_cred/spr_cred.yy",},
     {"name":"spr_dano","order":4,"path":"sprites/spr_dano/spr_dano.yy",},
     {"name":"spr_e","order":9,"path":"sprites/spr_e/spr_e.yy",},
