@@ -1,6 +1,9 @@
 # Metroid-Vania
 Este é um projeto de criação de um jogo no estilo MetroidVania
 
+Link para página de download do Jogo:
+https://jocis4.itch.io/castle-of-question
+
 Link do tutorial de criação do jogo base:
 https://www.youtube.com/watch?v=ARK4UlGp8Gs&list=PLKTRv0drNjJ-D6CuTsb2pC8zMUuxk3XBf
 
